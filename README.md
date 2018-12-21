@@ -49,9 +49,4 @@ Original Schnorr Signature的协议流程如下：
 原本的设计中，Schnorr签名是一种交互式协议，需要一个实际存在的验证者与参与者，而根据Fiat-Shamir转换，可以将具体的验证者采用随机数预言机来代替。将验证者替换为随机数预言机后，外部的验证者便无法通过交换 $r_2$来推出私钥 $x$ ，原本的 $r_2$ 采用随机数预言机产生的随机数来表示。在现有的方案ED25519种，采用了将参数$R$，公钥 $Y$，与消息体 $M$进行哈希作为随机数 $r_2$。具体的ED25519公私钥生成与签名验证的方式如下：
 
 #### 公私钥生成
-
-
-
-
-
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+ED25519 
